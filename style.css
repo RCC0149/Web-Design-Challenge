@@ -1,0 +1,141 @@
+/** Navbar **/
+a.navbar-brand{
+    margin-left: 15px;
+    padding: 15px;
+    background-color: rgb(125, 81, 175);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+.page-footer{
+    background-color: rgb(92, 90, 90);
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-copyright{
+    color:white;
+    border-top: 5px solid rgb(81, 175, 160)
+}
+
+/** Headings **/
+h1{
+    color: rgb(125, 81, 175);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+    text-align: center;
+    padding: 15px;
+}
+
+h3{
+    color: rgb(125, 81, 175);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+    text-align: center;
+    padding: 15px;
+}
+
+/** Images **/
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+/** Paragraphs **/
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 10px;
+}
+
+/** Body Background **/
+body{
+    background-color: rgb(223, 222, 222);
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+.col-md-8{
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom:40px;
+}
+
+/** Image Border Style **/
+.pic{
+    border: 3px solid rgb(81, 175, 160);
+}
+/** Navbar Style **/
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+.nav-item.dropdown.show {
+    background-color: #ddd;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: white;
+    }
+.dropdown-item {
+    color:rgb(125, 81, 175);
+    }
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: rgb(255, 196, 0);
+    }
+
+.nav-link:hover {
+    background-color: rgb(125, 81, 175);
+    }
+
+.navbar-brand:hover {
+    color: #f67700;
+    }
+
+.active, .panel:hover {
+    border-color:rgb(255, 196, 0);
+    border-style: solid;
+    }
+
+/* Content Styling */
+.content {
+    padding-top: 10px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg-white {
+    margin-top: 15px;
+}
+
+/* Table */
+.table {
+    font-size: 15px;
+    border-top-color: rgb(255, 255, 255);
+    }
+
+th{
+    position: sticky;
+    top: 0;
+}
+
+
+/* Small Screen Adjustments */
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: rgb(125, 81, 175)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
